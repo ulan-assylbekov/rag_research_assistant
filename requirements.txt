@@ -1,0 +1,8 @@
+# Local multilingual embedding and vector search for the first RAG milestone.
+sentence-transformers==3.4.1
+numpy>=1.24,<3
+# The system Python uses LibreSSL; urllib3 1.x avoids the OpenSSL-only warning.
+urllib3<2
+qdrant-client==1.16.1
+requests>=2.32,<3
+pypdf>=5,<7
